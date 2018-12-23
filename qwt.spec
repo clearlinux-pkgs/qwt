@@ -4,9 +4,9 @@
 #
 Name     : qwt
 Version  : 6.1.3
-Release  : 3
-URL      : https://downloads.sourceforge.net/project/qwt/qwt/6.1.3/qwt-6.1.3.tar.bz2
-Source0  : https://downloads.sourceforge.net/project/qwt/qwt/6.1.3/qwt-6.1.3.tar.bz2
+Release  : 4
+URL      : https://sourceforge.net/projects/qwt/files/qwt/6.1.3/qwt-6.1.3.tar.bz2
+Source0  : https://sourceforge.net/projects/qwt/files/qwt/6.1.3/qwt-6.1.3.tar.bz2
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : LGPL-2.1
@@ -74,7 +74,7 @@ test -r config.log && cat config.log
 make  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1545362720
+export SOURCE_DATE_EPOCH=1545593393
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/qwt
 cp COPYING %{buildroot}/usr/share/package-licenses/qwt/COPYING
